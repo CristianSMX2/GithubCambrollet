@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.left {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.left button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.left .signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.right {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.img-picture{
+    height: 100%;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
