@@ -140,3 +140,21 @@ body {
     
   }
   
+
+  .box-master{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    left: 130px;
+    top: 30px;
+  }
+
+  .box-one{
+    width: 500px;
+    height: 300px;
+    border: solid black 2px;
+    background-color: white;
+  }
+
+  
