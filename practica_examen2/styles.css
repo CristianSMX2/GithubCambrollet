@@ -8,6 +8,8 @@ body {
     margin: 0;
 }
 
+
+/* Box  */
 .container {
     width: 1280px;
     height: 720px;
@@ -17,6 +19,7 @@ body {
     border-radius: 8px;
 }
 
+/* Parte izquierda */
 .left {
     flex: 1;
     padding: 40px;
@@ -65,6 +68,9 @@ body {
     font-size: 14px;
 }
 
+
+/* parte derecha - background/text   */
+
 .right {
     flex: 1;
     background-color: #f0f0f0;
@@ -72,25 +78,31 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .right img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
+
 }
+
 
 .img-picture{
     height: 100%;
     width: 100%;
 }
 
-.text-overlay {
-    position: absolute;
+
+/* Texto encima del fondo */
+.text_over_the_background {
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(150%, -50%);
     color: white;
     font-size: 24px;
     font-weight: bold;
+
 }
