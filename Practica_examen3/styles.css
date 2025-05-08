@@ -2,6 +2,7 @@ body{
     margin: 0;
     display: flex;
     text-align: center;
+    box-sizing: border-box;
 
 }
 
@@ -19,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    box-sizing: border-box;
 }
 
 .parte-izquierda img{
@@ -87,9 +88,13 @@ hr{
 }
 
 .parte-derecha{
+    background-image: url(desierto.jpg);
+    background-size: cover;
     width: 80%;
     height: 100vh;
     padding: 70px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .caja1{
@@ -97,8 +102,13 @@ hr{
     justify-content: center;
     gap: 20px;
     padding-top: 30px;
+    position: relative;
+    z-index: 30;
+    color: #fff;
     
 }
+
+
 
 .sub-caja{
     text-align: start;
@@ -113,8 +123,29 @@ hr{
     
 }
 
+.terraza{
+    object-fit: cover;
+    width: 600px;
+    height: 350px;
 
-  button{
+}
+  
+button{
     padding: 10px 20px;
     border-radius: 5px;
+  }
+
+  .caja0 {
+    position: relative;
+    z-index: 30;
+    color: #fff;
+  }
+
+  .opacidad { 
+    background-color:#000a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
   }
