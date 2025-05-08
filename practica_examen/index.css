@@ -57,7 +57,6 @@ body {
     transition: background-color 0.3s, color 0.6s; 
     text-align: center;
     padding: 20px;
-   
   }
   
   .menu div:hover {
@@ -72,7 +71,7 @@ body {
     line-height: 1.5;
     color: black;
     padding: 0 auto;
-    margin-top:50px ;
+    margin-top:50px;
   }
   
   .menu-iconos{
@@ -147,7 +146,8 @@ body {
     gap: 40px;
     position: relative;
     left: 130px;
-    top: 30px;
+    top: 30PX;
+    
   }
 
   .box-one{

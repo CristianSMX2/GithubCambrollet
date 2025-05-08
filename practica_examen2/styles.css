@@ -106,3 +106,9 @@ body {
     font-weight: bold;
 
 }
+
+/* PARTE DERECHA */
+
+.parte-derecha{
+    width: 80%;
+}
