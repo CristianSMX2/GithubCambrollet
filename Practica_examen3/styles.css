@@ -6,9 +6,10 @@ body{
 }
 
 /* Tamaño imagen */
-img{
+.Roberto{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 
 .parte-izquierda{
@@ -22,7 +23,7 @@ img{
 }
 
 .parte-izquierda img{
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .texto-izquieda{
@@ -34,7 +35,7 @@ img{
 
 
 .menu{
-    font-size: 40px;
+    font-size: 35px;
     color: #7e93f0;
     text-align: center;
     flex-direction: column;
@@ -88,6 +89,7 @@ hr{
 .parte-derecha{
     width: 80%;
     height: 100vh;
+    padding: 70px;
 }
 
 .caja1{
@@ -100,11 +102,19 @@ hr{
 
 .sub-caja{
     text-align: start;
+    margin-top: 10px;
 }
 
 
 .text2{
     width: 400px;
     text-align: justify;
+    font-size: 20px;
     
 }
+
+
+  button{
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
