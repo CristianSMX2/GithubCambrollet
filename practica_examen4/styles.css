@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+
+/* Parte izquierda */
+
+.parte-izquierda{
+    width: 20%;
+    height: 100vh;
+    background-color: #a52a2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.parte-izquierda img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px
+}
+
+
+.texto_cv{
+    color: #f0f8ff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.empresario{
+    line-height: 0.2;
+    font-weight: bold;
+   
+
+}
+
+/* Menu */
+.menu{
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.menu-ul{
+    padding-left: 0;
+}
+
+.item-text{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border-bottom: #f0f8ff solid;
+    padding: 20px;
+    
+    
+}
+
+.item-text:hover{
+     background-color: rgb(148, 172, 194); 
+}
+
+/* Social media */
+
+.social-media{
+     display: flex;
+     gap: 10px;
+     margin-top: 40px;
+     
+     
+}
+.media img{
+    width: 30px;
+    height: 30px;
+    background-color:#333a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    width: 100%;
+    margin-top: 60px;
+    color: #f0f8ff;
+}
+
+.copyright{
+    color: #f0f8ff;
+    font-weight: 700;
+    margin-top:40px;
+}
+
+/* Parte derecha */
+
+.parte-derecha{
+    width: 80%;
+    height: 100vh;
+    background-image: url(img/desierto.jpg);
+    background-size: cover;
+}
+
+
+.box-right{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.right-text{
+    width: 1000px;
+    margin: auto;
+}
+
+.box-img-text{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.box-img-text img{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.text-lorem{
+    width: 600px;
+    font-size: 25px;
+    color:#f0f8ff;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.linear-medium{
+    width: 90%;
+    margin-top: 0;
+}
