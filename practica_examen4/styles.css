@@ -114,24 +114,42 @@ hr{
     background-image: url(img/desierto.jpg);
     background-size: cover;
     overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    
 }
 
+.opacity-bg{
+    background-color: #333a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 
 .box-right{
     text-align: center;
     color: aliceblue;
     margin-top: 50px;
+    z-index: 10;
+    position: relative;
 }
 
 .right-text{
     width: 1000px;
     margin: auto;
+    
 }
 
 .box-img-text{
     display: flex;
     justify-content: center;
     padding: 40px;
+     z-index: 10;
+    position: relative;
 }
 
 .box-img-text img{
@@ -152,4 +170,6 @@ hr{
 .linear-medium{
     width: 90%;
     margin-top: 0;
+    z-index: 10;
+    position: relative;
 }
