@@ -231,12 +231,15 @@ body{
 
 .lets-section{
     display: flex;
-    gap: 30px;
-
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .more-text{
     color: #f0f8ff;
+    
 }
 
 .more-text h3{
@@ -250,8 +253,8 @@ body{
 
 }
 .facebook-section{
-    width: 250px;
-    height: 150px;
+    width: 232px;
+    height: 169px;
     background-color: rgb(74, 74, 236);
     display: flex;
     justify-content: center;
@@ -262,3 +265,44 @@ body{
     height: 80px;
 }
 
+.twitter-section{
+    width: 232px;
+    height: 169px;
+    background-color: rgb(105, 207, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-section img{
+    width: 70px;
+    height: 80px;
+}
+
+.youtube-section{
+    width: 232px;
+    height: 169px;
+    background-color: rgb(241, 89, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-section img{
+    width: 70px;
+    height: 80px;
+}
+
+.linkedin-section{
+    width: 232px;
+    height: 169px;
+    background-color: rgb(53, 178, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-section img{
+    width: 70px;
+    height: 80px;
+}
