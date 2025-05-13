@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:  #013535;
+}
+
+
+/* Navegador */
+
+.navegador{
+    width: 100%;
+    background-color:#013535;
+    padding: 16px 0 0 0;
+    color: #f0f8ff;
+}
+
+.logo img{
+    width: 200px;
+    align-items: center;
+    margin-left: 0px;
+}
+
+
+.nav-one {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 16px 0 0px 0px; 
+}
+
+.nav-ul {
+    display: flex;
+    gap: 0px; 
+    list-style: none;
+    margin-right: 20px;   
+}
+
+.item-list {
+    font-size: 16px; 
+    padding: 18px;
+    font-weight: 700; 
+     
+}
+
+.item-list:hover{
+     background-color: #ff0000;
+     font-size: 16px;
+     padding: 18px;
+     border-radius: 5px;
+    
+}
+
+/* imagen section */
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.first-section img{
+    width: 1500px;
+    height: 580px;
+}
+
+/* block section */
+
+.block-one{
+    width: 320px;
+    height: 250px;
+    background-color: #d10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.block-second{
+    width: 320px;
+    height: 250px;
+    background-color: rgb(196, 196, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-weight: 700;
+   
+}
+
+.block_third{
+    width: 320px;
+    height: 250px;
+    background-color:rgba(7, 7, 163, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-weight: 700;
+     margin-bottom: 10px;
+}
+
+.block-fourth{
+    width: 320px;
+    height: 250px;
+    background-color:rgba(2, 148, 148, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-weight: 700;
+    
+}
+
+/* Team up  block */
+    
+
+.block-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.team-block-two{
+    flex-direction: column;
+    
+}
+
+.alone-pic img{
+    width: 836px;
+    height: 510px;
+}
+
+/* Section text center */
+
+.center-text {
+    color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 40px;
+}
+
+.h1-text {
+    text-align: start; 
+    width: 730px;
+    font-size: 28px;
+}
+
+.p-text{
+    text-align: start;
+    width: 730px;
+    font-size: 15px;
+}
+
+.span-text{
+    font-weight: 100;
+}
+
+/* Two block section */
+
+.two-blocks-section{
+    display: flex;
+}
