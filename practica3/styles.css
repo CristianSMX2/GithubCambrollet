@@ -43,23 +43,33 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     
+    
 }
 
 .nav-ul{
     padding-left: 0;
     color: #f0f8ff;
     font-size: 28px;
+    
 }
+
 
 .item-list{
     padding: 12px 0;
     list-style: none;
     border-bottom: 1px solid #f0f8ff;
-    width: 100%;
-    
+    width: 100%;  
 }
+
+.item-list a{
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
 .item-list:hover{
     background-color: #7d9484;
+    text-decoration: none;
+    
 }
 
 /* Social media */
@@ -68,16 +78,19 @@ body{
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 10px 0 0 0;
+    padding: 20px 0 15px 0;
+    
 }
 
-.social-media img{
-    width: 40px;
-    height: 40px;
-    background-color: #7d9484;
-    padding: 5px;
-    border-radius: 0;
-    
+.material-symbols-outlined{
+    background-color: #8b8b8b;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.material-symbols-outlined a{
+    text-decoration: none;
+    color: #333;
 }
 
 /* Linea separadora */
