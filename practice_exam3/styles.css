@@ -1,0 +1,110 @@
+Body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-image: url(img/hand_writing_book.jpg);
+    background-repeat: no-repeat;
+}
+
+.menu{
+    background-color: #fcdcb3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu-h1{
+    margin-left: 100px;
+}
+
+.nav-ul{
+    display: flex;
+    gap: 24px;
+    margin-right: 120px;
+}
+
+
+.item-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.text-form{
+    display: flex;
+    justify-content: space-around;
+    color: #f0f8ff;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+
+.form-h1{
+    font-size: 50px;
+    width: 400px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.form-p{
+    width: 480px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+.text-in{
+    font-size: 20px;
+    color: #020202;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+.contact-form label {
+    margin-top: 28px;
+}
+
+
+.contact-form input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    width: 80%;
+    height: 30px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 30px;
+    padding: 10px 0 10px 0;
+    border: none;
+    background-color: #d8a15d;
+    color: white;
+    width: 88%;
+    height: 50px;
+    border-radius: 5px;
+}
+
