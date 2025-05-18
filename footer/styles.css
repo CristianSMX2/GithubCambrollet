@@ -13,7 +13,6 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
 }
@@ -47,9 +46,8 @@ footer {
     font-size: 14px;
 }
 
-.footer-section ul li a:hover {
-    text-decoration: underline;
-}
+
+/* Social media  */
 
 .social-links a {
     color: white;
@@ -58,13 +56,16 @@ footer {
     text-decoration: none;
 }
 
-.social-links a:hover {
-    text-decoration: underline;
+/* bottom part  */
+.line{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
     padding-top: 10px;
-    border-top: 1px solid #444;
+   
 }
