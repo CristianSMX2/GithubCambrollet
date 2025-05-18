@@ -68,7 +68,7 @@ body{
 /* block section */
 
 .block-one{
-    width: 390px;
+    width: 380px;
     height: 250px;
     background-color: #d10000;
     display: flex;
@@ -80,7 +80,7 @@ body{
 }
 
 .block-second{
-    width: 390px;
+    width: 380px;
     height: 250px;
     background-color: rgb(196, 196, 0);
     display: flex;
@@ -92,7 +92,7 @@ body{
 }
 
 .block_third{
-    width: 390px;
+    width: 380px;
     height: 250px;
     background-color:rgba(7, 7, 163, 0.89);
     display: flex;
@@ -104,7 +104,7 @@ body{
 }
 
 .block-fourth{
-    width: 390px;
+    width: 380px;
     height: 250px;
     background-color:rgba(2, 148, 148, 0.89);
     display: flex;
@@ -130,7 +130,7 @@ body{
 }
 
 .alone-pic img{
-    width: 690px;
+    width:710px;
     height: 510px;
 }
 
