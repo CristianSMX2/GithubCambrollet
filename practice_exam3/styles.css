@@ -202,7 +202,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1200px;
     margin: auto;
     margin-bottom: 30px;
@@ -253,13 +253,11 @@ footer {
 /* bottom part  */
 .line{
     width: 50%;
-    margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
-    padding-top: 10px;
-   
+
 }
