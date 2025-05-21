@@ -138,6 +138,7 @@ Body{
 
 .boxes h4{
    margin-top: 5px;
+   margin-left: -3px;
 }
 
 .boxes p{
@@ -146,7 +147,7 @@ Body{
 
 .boxes i {
     font-size: 40px;
-    margin-left: -4px;
+    margin-left: -2px;
     margin-bottom: 10px;
     margin-top: 40px;
     
@@ -240,6 +241,11 @@ footer {
 
 /* Social media  */
 
+
+.social-links{
+    margin-top: 15px;
+}
+
 .social-links a {
     color: white;
     margin-right: 6px;
@@ -248,6 +254,8 @@ footer {
     background-color: #fcdcb3;
     padding: 10px;
     border-radius: 50%;
+   
+   
 }
 
 /* bottom part  */
